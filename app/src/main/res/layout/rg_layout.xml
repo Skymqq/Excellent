@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:gravity="center"
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                style="@style/rb"
+                android:checked="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:drawableTop="@drawable/rb1_selector"
+                android:text="@string/main_rb_name1"
+                android:textColor="@drawable/text_color_selector" />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                style="@style/rb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:drawableTop="@drawable/rb2_selector"
+                android:text="@string/main_rb_name2"
+                android:textColor="@drawable/text_color_selector" />
+
+            <RadioButton
+                android:id="@+id/rb3"
+                style="@style/rb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:drawableTop="@drawable/rb3_selector"
+                android:text="@string/main_rb_name3"
+                android:textColor="@drawable/text_color_selector" />
+
+            <RadioButton
+                android:id="@+id/rb4"
+                style="@style/rb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:drawableTop="@drawable/rb4_selector"
+                android:text="@string/main_rb_name4"
+                android:textColor="@drawable/text_color_selector" />
+        </RadioGroup>
+    </FrameLayout>
+
+
+</RelativeLayout>
